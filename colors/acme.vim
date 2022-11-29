@@ -34,14 +34,7 @@ highlight! CursorLineNr guifg=fg gui=bold
 highlight! EndOfBuffer guifg=bg
 highlight! SignColumn guibg=bg
 
-highlight! TelescopeMatching gui=bold
-highlight! TelescopeNormal guibg=bg guifg=fg
-
-highlight! IndentBlanklineChar guifg=#bfbfbf gui=nocombine
-highlight! IndentBlanklineContextChar guifg=#e50000 gui=nocombine
-
-highlight! NvimTreeWindowPicker guibg=fg guifg=bg
-
+" barbar
 highlight! BufferCurrentSign guifg=#e50000
 highlight! BufferVisible guifg=#000000
 highlight! BufferVisibleIndex guifg=#000000
@@ -51,6 +44,20 @@ highlight! BufferInactive guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
 highlight! BufferInactiveIndex guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
 highlight! BufferInactiveMod guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
 highlight! BufferInactiveSign guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
+
+" telescope
+highlight! TelescopeMatching gui=bold
+highlight! TelescopeNormal guibg=bg guifg=fg
+
+" indent-blankline
+highlight! IndentBlanklineChar guifg=#bfbfbf gui=nocombine
+highlight! IndentBlanklineContextChar guifg=#e50000 gui=nocombine
+
+" neotest
+highlight! NeotestPassed guifg=#00b000 gui=bold
+
+" nvim-tree
+highlight! NvimTreeWindowPicker guibg=fg guifg=bg
 
 " vim
 hi link vimFunction Identifier
