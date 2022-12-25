@@ -13,16 +13,16 @@ highlight! Conceal guibg=bg guifg=fg gui=NONE ctermbg=bg ctermfg=fg cterm=NONE
 highlight! LineNr guibg=bg guifg=#505050 gui=italic ctermbg=bg ctermfg=239 cterm=italic
 highlight! Visual guibg=#dbfdd4 guifg=fg ctermbg=194 ctermfg=fg
 highlight! CursorLine guibg=#dbfdd4 guifg=fg ctermbg=194 ctermfg=fg
-highlight! Pmenu guibg=bg guifg=fg ctermbg=bg ctermfg=fg
+highlight! Pmenu guibg=#ffffd9 guifg=fg ctermbg=229 ctermfg=fg
 highlight! PmenuSel guibg=fg guifg=bg ctermbg=fg ctermfg=bg
 
 highlight! Statement guibg=bg guifg=fg gui=italic ctermbg=bg ctermfg=fg cterm=italic
-highlight! Identifier guibg=bg guifg=fg gui=bold ctermbg=bg ctermfg=fg cterm=bold
+highlight! Identifier guibg=#ffffd9 guifg=fg gui=bold ctermbg=229 ctermfg=fg cterm=bold
 highlight! Type guibg=bg guifg=fg gui=bold ctermbg=bg ctermfg=fg cterm=bold
 highlight! PreProc guibg=bg guifg=fg gui=bold ctermbg=bg ctermfg=fg cterm=bold
-highlight! Constant guibg=bg guifg=#101010 gui=bold ctermbg=bg ctermfg=233 cterm=italic
-highlight! Comment guibg=bg guifg=#303030 gui=italic ctermbg=bg ctermfg=236 cterm=italic
-highlight! Special guibg=bg guifg=fg gui=bold ctermbg=bg ctermfg=fg cterm=bold
+highlight! Constant guibg=#ffffd9 guifg=#101010 gui=bold ctermbg=229 ctermfg=233 cterm=italic
+highlight! Comment guibg=#ffffd9 guifg=#303030 gui=italic ctermbg=229 ctermfg=236 cterm=italic
+highlight! Special guibg=#ffffd9 guifg=fg gui=bold ctermbg=229 ctermfg=fg cterm=bold
 highlight! SpecialKey guibg=bg guifg=fg gui=bold ctermbg=bg ctermfg=fg cterm=bold
 highlight! NonText guibg=bg guifg=fg gui=bold ctermbg=bg ctermfg=fg cterm=bold
 highlight! Directory guibg=bg guifg=fg gui=bold ctermbg=bg ctermfg=fg cterm=bold
@@ -48,6 +48,7 @@ highlight! BufferInactiveSign guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
 " telescope
 highlight! TelescopeMatching gui=bold
 highlight! TelescopeNormal guibg=bg guifg=fg
+highlight! TelescopeMultiSelection guibg=#ffff00 gui=bold
 
 " indent-blankline
 highlight! IndentBlanklineChar guifg=#bfbfbf gui=nocombine
