@@ -35,6 +35,7 @@ highlight! EndOfBuffer guifg=bg
 highlight! SignColumn guibg=bg
 
 " barbar
+highlight! BufferCurrent guifg=#000000 gui=bold
 highlight! BufferCurrentSign guifg=#e50000
 highlight! BufferVisible guifg=#000000
 highlight! BufferVisibleIndex guifg=#000000
