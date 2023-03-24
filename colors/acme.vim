@@ -5,14 +5,16 @@ highlight clear
 
 highlight! Normal guibg=#ffffdd guifg=#000000 ctermbg=230 ctermfg=232
 highlight! NonText guibg=bg guifg=#ffffdd ctermbg=bg ctermfg=230
+highlight! StatusLine guibg=#aeeeee guifg=#000000 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
+highlight! StatusLineNC guibg=#eaffff guifg=#000000 gui=NONE ctermbg=194 ctermfg=232 cterm=NONE
 highlight! WildMenu guibg=#000000 guifg=#eaffff gui=NONE ctermbg=black ctermfg=159 cterm=NONE
 highlight! VertSplit guibg=#ffffdd guifg=#000000 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
 highlight! Folded guibg=#cccc7c guifg=fg gui=italic ctermbg=187 ctermfg=fg cterm=italic
 highlight! FoldColumn guibg=#fcfcce guifg=fg ctermbg=229 ctermfg=fg
 highlight! Conceal guibg=bg guifg=fg gui=NONE ctermbg=bg ctermfg=fg cterm=NONE
 highlight! LineNr guibg=bg guifg=#505050 gui=italic ctermbg=bg ctermfg=239 cterm=italic
-highlight! Visual guibg=#dbfdd4 guifg=fg ctermbg=194 ctermfg=fg
-highlight! CursorLine guibg=#dbfdd4 guifg=fg ctermbg=194 ctermfg=fg
+highlight! Visual guibg=#fce0d2 guifg=fg ctermbg=194 ctermfg=fg
+highlight! CursorLine guibg=#fce0d2 guifg=fg ctermbg=194 ctermfg=fg
 highlight! Pmenu guibg=#ffffd9 guifg=fg ctermbg=229 ctermfg=fg
 highlight! PmenuSel guibg=fg guifg=bg ctermbg=fg ctermfg=bg
 
