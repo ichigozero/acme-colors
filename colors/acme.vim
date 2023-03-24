@@ -47,6 +47,7 @@ highlight! BufferInactive guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
 highlight! BufferInactiveIndex guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
 highlight! BufferInactiveMod guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
 highlight! BufferInactiveSign guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
+highlight! BufferTabpageFill guibg=#ffffdd
 
 " telescope
 highlight! TelescopeMatching gui=bold
