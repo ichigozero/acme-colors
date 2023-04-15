@@ -43,10 +43,12 @@ highlight! BufferVisible guifg=#000000
 highlight! BufferVisibleIndex guifg=#000000
 highlight! BufferVisibleMod guifg=#000000
 highlight! BufferVisibleSign guifg=#000000
+highlight! BufferVisibleTarget guibg=#ffffdd
 highlight! BufferInactive guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
 highlight! BufferInactiveIndex guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
 highlight! BufferInactiveMod guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
 highlight! BufferInactiveSign guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
+highlight! BufferInactiveTarget guibg=#ffffdd
 highlight! BufferTabpageFill guibg=#ffffdd
 
 " telescope
