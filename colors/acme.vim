@@ -64,7 +64,7 @@ highlight! IndentBlanklineContextChar guifg=#e50000 gui=nocombine
 highlight! NeotestPassed guifg=#00b000 gui=bold
 
 " nvim-tree
-highlight! NvimTreeWindowPicker guibg=fg guifg=bg
+highlight! NvimTreeWindowPicker guibg=#aeeeee guifg=#000000 gui=bold
 
 " vim
 hi link vimFunction Identifier
