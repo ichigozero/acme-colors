@@ -3,12 +3,12 @@ highlight clear
 " for cterm, 'black' might get overwritten by the terminal emulator, so we use
 " 232 (#080808), which is close enough.
 
-highlight! Normal guibg=#ffffdd guifg=#0000f0 ctermbg=230 ctermfg=232
+highlight! Normal guibg=#ffffdd guifg=#464340 ctermbg=230 ctermfg=232
 highlight! NonText guibg=bg guifg=#ffffdd ctermbg=bg ctermfg=230
-highlight! StatusLine guibg=#aeeeee guifg=#0000f0 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
-highlight! StatusLineNC guibg=#eaffff guifg=#0000f0 gui=NONE ctermbg=194 ctermfg=232 cterm=NONE
-highlight! WildMenu guibg=#0000f0 guifg=#eaffff gui=NONE ctermbg=black ctermfg=159 cterm=NONE
-highlight! VertSplit guibg=#ffffdd guifg=#0000f0 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
+highlight! StatusLine guibg=#aeeeee guifg=#464340 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
+highlight! StatusLineNC guibg=#eaffff guifg=#464340 gui=NONE ctermbg=194 ctermfg=232 cterm=NONE
+highlight! WildMenu guibg=#464340 guifg=#eaffff gui=NONE ctermbg=black ctermfg=159 cterm=NONE
+highlight! VertSplit guibg=#ffffdd guifg=#464340 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
 highlight! Folded guibg=#cccc7c guifg=fg gui=italic ctermbg=187 ctermfg=fg cterm=italic
 highlight! FoldColumn guibg=#fcfcce guifg=fg ctermbg=229 ctermfg=fg
 highlight! Conceal guibg=bg guifg=fg gui=NONE ctermbg=bg ctermfg=fg cterm=NONE
@@ -37,12 +37,12 @@ highlight! EndOfBuffer guifg=bg
 highlight! SignColumn guibg=bg
 
 " barbar
-highlight! BufferCurrent guifg=#0000f0 gui=bold
+highlight! BufferCurrent guifg=#464340 gui=bold
 highlight! BufferCurrentSign guifg=#e50000
-highlight! BufferVisible guifg=#0000f0
-highlight! BufferVisibleIndex guifg=#0000f0
-highlight! BufferVisibleMod guifg=#0000f0
-highlight! BufferVisibleSign guifg=#0000f0
+highlight! BufferVisible guifg=#464340
+highlight! BufferVisibleIndex guifg=#464340
+highlight! BufferVisibleMod guifg=#464340
+highlight! BufferVisibleSign guifg=#464340
 highlight! BufferVisibleTarget guibg=#ffffdd
 highlight! BufferInactive guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
 highlight! BufferInactiveIndex guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
@@ -64,7 +64,7 @@ highlight! IndentBlanklineContextChar guifg=#e50000 gui=nocombine
 highlight! NeotestPassed guifg=#00b000 gui=bold
 
 " nvim-tree
-highlight! NvimTreeWindowPicker guibg=#aeeeee guifg=#0000f0 gui=bold
+highlight! NvimTreeWindowPicker guibg=#aeeeee guifg=#464340 gui=bold
 
 " vim
 hi link vimFunction Identifier
