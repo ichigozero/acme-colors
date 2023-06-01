@@ -5,28 +5,28 @@ highlight clear
 
 " General
 " -------
-highlight! Normal guibg=#ffffdd guifg=#464340 ctermbg=230 ctermfg=232
-highlight! NonText guibg=bg guifg=#ffffdd ctermbg=bg ctermfg=230
-highlight! StatusLine guibg=#aeeeee guifg=#464340 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
-highlight! StatusLineNC guibg=#eaffff guifg=#464340 gui=NONE ctermbg=194 ctermfg=232 cterm=NONE
-highlight! WildMenu guibg=#464340 guifg=#eaffff gui=NONE ctermbg=black ctermfg=159 cterm=NONE
-highlight! VertSplit guibg=#ffffdd guifg=#464340 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
+highlight! Normal guibg=#ffffea guifg=#000000 ctermbg=230 ctermfg=232
+highlight! NonText guibg=bg guifg=#ffffea ctermbg=bg ctermfg=230
+highlight! StatusLine guibg=#eaffff guifg=#000000 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
+highlight! StatusLineNC guibg=#eaffff guifg=#000000 gui=NONE ctermbg=194 ctermfg=232 cterm=NONE
+highlight! WildMenu guibg=#000000 guifg=#eaffff gui=NONE ctermbg=black ctermfg=159 cterm=NONE
+highlight! VertSplit guibg=#ffffea guifg=#99994c gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
 highlight! Folded guibg=#cccc7c guifg=fg gui=italic ctermbg=187 ctermfg=fg cterm=italic
 highlight! FoldColumn guibg=#fcfcce guifg=fg ctermbg=229 ctermfg=fg
 highlight! Conceal guibg=bg guifg=fg gui=NONE ctermbg=bg ctermfg=fg cterm=NONE
 highlight! LineNr guibg=bg guifg=#505050 gui=italic ctermbg=bg ctermfg=239 cterm=italic
-highlight! Visual guibg=#fce0d2 guifg=fg ctermbg=194 ctermfg=fg
-highlight! CursorLine guibg=#fce0d2 guifg=fg ctermbg=194 ctermfg=fg
-highlight! Pmenu guibg=#ffffd9 guifg=fg ctermbg=229 ctermfg=fg
+highlight! Visual guibg=#eeee9e guifg=fg ctermbg=194 ctermfg=fg
+highlight! CursorLine guibg=#eeee9e guifg=fg ctermbg=194 ctermfg=fg
+highlight! Pmenu guibg=#ffffe7 guifg=fg ctermbg=229 ctermfg=fg
 highlight! PmenuSel guibg=fg guifg=bg ctermbg=fg ctermfg=bg
 
 highlight! Statement guibg=bg guifg=fg gui=italic ctermbg=bg ctermfg=fg cterm=italic
-highlight! Identifier guibg=#ffffd9 guifg=fg gui=bold ctermbg=229 ctermfg=fg cterm=bold
+highlight! Identifier guibg=#ffffe7 guifg=fg gui=bold ctermbg=229 ctermfg=fg cterm=bold
 highlight! Type guibg=bg guifg=fg gui=bold ctermbg=bg ctermfg=fg cterm=bold
 highlight! PreProc guibg=bg guifg=fg gui=bold ctermbg=bg ctermfg=fg cterm=bold
-highlight! Constant guibg=#ffffd9 guifg=#101010 gui=bold ctermbg=229 ctermfg=233 cterm=italic
-highlight! Comment guibg=#ffffd9 guifg=#303030 gui=italic ctermbg=229 ctermfg=236 cterm=italic
-highlight! Special guibg=#ffffd9 guifg=fg gui=bold ctermbg=229 ctermfg=fg cterm=bold
+highlight! Constant guibg=#ffffe7 guifg=#101010 gui=bold ctermbg=229 ctermfg=233 cterm=italic
+highlight! Comment guibg=#ffffe7 guifg=#303030 gui=italic ctermbg=229 ctermfg=236 cterm=italic
+highlight! Special guibg=#ffffe7 guifg=fg gui=bold ctermbg=229 ctermfg=fg cterm=bold
 highlight! SpecialKey guibg=bg guifg=fg gui=bold ctermbg=bg ctermfg=fg cterm=bold
 highlight! NonText guibg=bg guifg=fg gui=bold ctermbg=bg ctermfg=fg cterm=bold
 highlight! Directory guibg=bg guifg=fg gui=bold ctermbg=bg ctermfg=fg cterm=bold
@@ -36,7 +36,7 @@ highlight! link Question Comment
 
 highlight! CursorLineNr guifg=fg gui=bold
 highlight! EndOfBuffer guifg=bg
-highlight! ColorColumn guibg=#e7e3d7 guifg=#464340 ctermbg=7 ctermfg=0
+highlight! ColorColumn guibg=#e7e3d7 guifg=#000000 ctermbg=7 ctermfg=0
 highlight! SignColumn guibg=bg
 
 " Other
@@ -51,7 +51,7 @@ hi ModeMsg gui=bold guifg=#107410 cterm=bold ctermfg=2
 
 if exists('*term_setansicolors')
 	let g:terminal_ansi_colors = [
-				\ "#464340",
+				\ "#000000",
 				\ "#c81000",
 				\ "#107410",
 				\ "#806000",
@@ -70,7 +70,7 @@ if exists('*term_setansicolors')
 				\ ]
 endif
 if has('nvim')
-	let g:terminal_color_0 = "#464340"
+	let g:terminal_color_0 = "#000000"
 	let g:terminal_color_1 = "#c81000"
 	let g:terminal_color_2 = "#107410"
 	let g:terminal_color_3 = "#806000"
@@ -102,19 +102,19 @@ hi diffFile gui=none guifg=#806000 cterm=none ctermfg=3
 
 " barbar
 " ------
-highlight! BufferCurrent guifg=#464340 gui=bold
+highlight! BufferCurrent guifg=#000000 gui=bold
 highlight! BufferCurrentSign guifg=#e50000
-highlight! BufferVisible guifg=#464340
-highlight! BufferVisibleIndex guifg=#464340
-highlight! BufferVisibleMod guifg=#464340
-highlight! BufferVisibleSign guifg=#464340
-highlight! BufferVisibleTarget guibg=#ffffdd
+highlight! BufferVisible guifg=#000000
+highlight! BufferVisibleIndex guifg=#000000
+highlight! BufferVisibleMod guifg=#000000
+highlight! BufferVisibleSign guifg=#000000
+highlight! BufferVisibleTarget guibg=#ffffea
 highlight! BufferInactive guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
 highlight! BufferInactiveIndex guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
 highlight! BufferInactiveMod guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
 highlight! BufferInactiveSign guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
-highlight! BufferInactiveTarget guibg=#ffffdd guifg=#505050
-highlight! BufferTabpageFill guibg=#ffffdd
+highlight! BufferInactiveTarget guibg=#ffffea guifg=#505050
+highlight! BufferTabpageFill guibg=#ffffea
 
 " telescope
 " ---------
@@ -133,7 +133,7 @@ highlight! NeotestPassed guifg=#00b000 gui=bold
 
 " nvim-tree
 " ---------
-highlight! NvimTreeWindowPicker guibg=#aeeeee guifg=#464340 gui=bold
+highlight! NvimTreeWindowPicker guibg=#eaffff guifg=#000000 gui=bold
 
 " vim
 " ---
