@@ -126,7 +126,7 @@ highlight! TelescopeMultiSelection guibg=#ffff00 gui=bold
 " indent-blankline
 " ----------------
 highlight! IndentBlanklineChar guifg=#bfbfbf gui=nocombine
-highlight! IndentBlanklineContextChar guifg=#e50000 gui=nocombine
+highlight! IndentBlanklineContextChar guifg=#c81000 gui=nocombine
 
 " neotest
 " -------
