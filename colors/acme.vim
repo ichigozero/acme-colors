@@ -102,17 +102,18 @@ hi diffFile gui=none guifg=#806000 cterm=none ctermfg=3
 
 " barbar
 " ------
-highlight! BufferCurrent guifg=#000000 gui=bold
-highlight! BufferCurrentSign guifg=#e50000
+highlight! BufferCurrent guibg=#fce0d2 guifg=#000000
+highlight! BufferCurrentMod guibg=#fce0d2 guifg=#c81000
+highlight! BufferCurrentSign guifg=#ffffea
 highlight! BufferVisible guifg=#000000
 highlight! BufferVisibleIndex guifg=#000000
-highlight! BufferVisibleMod guifg=#000000
-highlight! BufferVisibleSign guifg=#000000
+highlight! BufferVisibleMod guifg=#c81000
+highlight! BufferVisibleSign guifg=#ffffea
 highlight! BufferVisibleTarget guibg=#ffffea
 highlight! BufferInactive guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
 highlight! BufferInactiveIndex guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
 highlight! BufferInactiveMod guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
-highlight! BufferInactiveSign guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
+highlight! BufferInactiveSign guibg=bg guifg=#ffffea ctermbg=bg ctermfg=239
 highlight! BufferInactiveTarget guibg=#ffffea guifg=#505050
 highlight! BufferTabpageFill guibg=#ffffea
 
