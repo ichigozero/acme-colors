@@ -105,6 +105,7 @@ hi diffFile gui=none guifg=#806000 cterm=none ctermfg=3
 highlight! BufferCurrent guibg=#fce0d2 guifg=#000000
 highlight! BufferCurrentMod guibg=#fce0d2 guifg=#c81000
 highlight! BufferCurrentSign guifg=#ffffea
+highlight! BufferCurrentTarget gui=bold guibg=#fce0d2 guifg=#c81000
 highlight! BufferVisible guifg=#000000
 highlight! BufferVisibleIndex guifg=#000000
 highlight! BufferVisibleMod guifg=#c81000
