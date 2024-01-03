@@ -100,38 +100,11 @@ hi diffRemoved guifg=#c81000 ctermfg=1
 hi diffNewFile gui=none guifg=#385dc4 ctermfg=4
 hi diffFile gui=none guifg=#806000 cterm=none ctermfg=3
 
-" barbar
-" ------
-highlight! BufferCurrent guibg=#fce0d2 guifg=#000000
-highlight! BufferCurrentMod guibg=#fce0d2 guifg=#c81000
-highlight! BufferCurrentSign guifg=#ffffea
-highlight! BufferCurrentTarget gui=bold guibg=#fce0d2 guifg=#c81000
-highlight! BufferVisible guifg=#000000
-highlight! BufferVisibleIndex guifg=#000000
-highlight! BufferVisibleMod guifg=#c81000
-highlight! BufferVisibleSign guifg=#ffffea
-highlight! BufferVisibleTarget guibg=#ffffea
-highlight! BufferInactive guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
-highlight! BufferInactiveIndex guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
-highlight! BufferInactiveMod guibg=bg guifg=#505050 ctermbg=bg ctermfg=239
-highlight! BufferInactiveSign guibg=bg guifg=#ffffea ctermbg=bg ctermfg=239
-highlight! BufferInactiveTarget guibg=#ffffea guifg=#505050
-highlight! BufferTabpageFill guibg=#ffffea
-
 " telescope
 " ---------
 highlight! TelescopeMatching gui=bold
 highlight! TelescopeNormal guibg=bg guifg=fg
 highlight! TelescopeMultiSelection guibg=#ffff00 gui=bold
-
-" indent-blankline
-" ----------------
-highlight! IndentBlanklineChar guifg=#bfbfbf gui=nocombine
-highlight! IndentBlanklineContextChar guifg=#c81000 gui=nocombine
-
-" neotest
-" -------
-highlight! NeotestPassed guifg=#00b000 gui=bold
 
 " nvim-tree
 " ---------
