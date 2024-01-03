@@ -103,8 +103,9 @@ hi diffFile gui=none guifg=#806000 cterm=none ctermfg=3
 " telescope
 " ---------
 highlight! TelescopeMatching gui=bold
-highlight! TelescopeNormal guibg=bg guifg=fg
 highlight! TelescopeMultiSelection guibg=#ffff00 gui=bold
+highlight! TelescopeNormal guibg=bg guifg=fg
+highlight! TelescopePathSeparator guifg=#000000
 
 " nvim-tree
 " ---------
