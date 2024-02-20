@@ -18,6 +18,7 @@ highlight! Conceal guibg=bg guifg=fg gui=NONE ctermbg=bg ctermfg=fg cterm=NONE
 highlight! LineNr guibg=bg guifg=#505050 gui=italic ctermbg=bg ctermfg=239 cterm=italic
 highlight! Visual guibg=#eeee9e guifg=fg ctermbg=194 ctermfg=fg
 highlight! CursorLine guibg=#eeee9e guifg=fg ctermbg=194 ctermfg=fg
+highlight! NormalFloat guibg=#ffffe7 guifg=fg ctermbg=229 ctermfg=fg
 highlight! Pmenu guibg=#ffffe7 guifg=fg ctermbg=229 ctermfg=fg
 highlight! PmenuSel guibg=fg guifg=bg ctermbg=fg ctermfg=bg
 
