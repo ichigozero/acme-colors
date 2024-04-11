@@ -7,8 +7,8 @@ highlight clear
 " -------
 highlight! Normal guibg=#ffffea guifg=#000000 ctermbg=230 ctermfg=232
 highlight! NonText guibg=bg guifg=#ffffea ctermbg=bg ctermfg=230
-highlight! StatusLine guibg=#eaffff guifg=#000000 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
-highlight! StatusLineNC guibg=#eaffff guifg=#000000 gui=NONE ctermbg=194 ctermfg=232 cterm=NONE
+highlight! StatusLine guibg=#eaffff guifg=#000000 gui=bold ctermbg=159 ctermfg=195 cterm=bold
+highlight! StatusLineNC guibg=#eaffff guifg=#000000 gui=NONE ctermbg=159 ctermfg=195 cterm=NONE
 highlight! WildMenu guibg=#000000 guifg=#eaffff gui=NONE ctermbg=black ctermfg=159 cterm=NONE
 highlight! VertSplit guibg=#ffffea guifg=#99994c gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
 highlight! WinSeparator guibg=#ffffea guifg=#99994c gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
