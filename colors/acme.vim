@@ -21,6 +21,7 @@ highlight! CursorLine guibg=#eeee9e guifg=fg ctermbg=194 ctermfg=fg
 highlight! NormalFloat guibg=#ffffe7 guifg=fg ctermbg=229 ctermfg=fg
 highlight! Pmenu guibg=#ffffe7 guifg=fg ctermbg=229 ctermfg=fg
 highlight! PmenuSel guibg=fg guifg=bg ctermbg=fg ctermfg=bg
+highlight! QuickFixLine guibg=yellow guifg=black ctermbg=yellow ctermfg=black
 
 highlight! Statement guibg=bg guifg=fg gui=italic ctermbg=bg ctermfg=fg cterm=italic
 highlight! Identifier guibg=#ffffe7 guifg=fg gui=bold ctermbg=229 ctermfg=fg cterm=bold
