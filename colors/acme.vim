@@ -15,6 +15,7 @@ highlight! WinSeparator guibg=#ffffea guifg=#99994c gui=NONE ctermbg=159 ctermfg
 highlight! Folded guibg=#cccc7c guifg=fg gui=italic ctermbg=187 ctermfg=fg cterm=italic
 highlight! FoldColumn guibg=#fcfcce guifg=fg ctermbg=229 ctermfg=fg
 highlight! Conceal guibg=bg guifg=fg gui=NONE ctermbg=bg ctermfg=fg cterm=NONE
+highlight! IncSearch guibg=fg guifg=#eeee9e ctermbg=fg ctermfg=194
 highlight! LineNr guibg=bg guifg=#505050 gui=italic ctermbg=bg ctermfg=239 cterm=italic
 highlight! Visual guibg=#eeee9e guifg=fg ctermbg=194 ctermfg=fg
 highlight! CursorLine guibg=#eeee9e guifg=fg ctermbg=194 ctermfg=fg
